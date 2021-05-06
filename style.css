@@ -1,0 +1,16 @@
+#search {
+    position: absolute;
+    right:42.5%;
+    bottom: 60%;
+    
+}
+.container {
+    display: flex;
+
+}
+
+img {
+    position: absolute;
+    right: 42.5%;
+    bottom: 64%;
+}
