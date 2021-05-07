@@ -2,14 +2,19 @@
     position: absolute;
     right: 33%;
     bottom: 56%;
-    width: 584px;
-    height: 46px;
+    width: 582px;
+    height: 44px;
+    outline: 1px solid rgb(228, 224, 224);
+    border-radius: 25px;
 }
+/*rgb(228, 224, 224)*/
 input {
     width: 527px;
     height: 34px;
     display: flex;
-    flex: auto;
+    flex-direction: row-reverse;
+    border-color: transparent;
+    outline: none;
 }
 .container {
     display: flex;
