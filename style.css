@@ -1,24 +1,24 @@
 #search {
     position: absolute;
-    right: 33%;
+    right: 34%;
     bottom: 56%;
     width: 582px;
     height: 44px;
-    outline: 1px solid rgb(228, 224, 224);
+    outline: 1px solid rgb(26, 24, 24);
     border-radius: 25px;
 }
 /*rgb(228, 224, 224)*/
 input {
     width: 527px;
     height: 34px;
-    display: flex;
-    flex-direction: row-reverse;
+    float: right;
     border-color: transparent;
-    outline: none;
+    outline: 1px solid rgb(26, 24, 24);
+    /*outline: none*/
 }
-.container {
-    display: flex;
-
+#search-icon-container {
+    align-items: center;
+    bottom: 50%;
 }
 
 img {
