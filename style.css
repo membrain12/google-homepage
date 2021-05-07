@@ -4,7 +4,7 @@
     bottom: 56%;
     width: 582px;
     height: 44px;
-    outline: 1px solid rgb(26, 24, 24);
+    outline: 1px solid rgb(228, 224, 224);
     border-radius: 25px;
 }
 /*rgb(228, 224, 224)*/
@@ -13,12 +13,14 @@ input {
     height: 34px;
     float: right;
     border-color: transparent;
-    outline: 1px solid rgb(26, 24, 24);
-    /*outline: none*/
+    /*outline: 1px solid rgb(26, 24, 24);*/
+    outline: none;
 }
 #search-icon-container {
-    align-items: center;
-    bottom: 50%;
+    position: absolute;
+    right: 95%;
+    bottom: 20%;
+    size: 100px;
 }
 
 img {
