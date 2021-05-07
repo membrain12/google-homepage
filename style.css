@@ -1,8 +1,15 @@
 #search {
     position: absolute;
-    right:42.5%;
-    bottom: 60%;
-    
+    right: 33%;
+    bottom: 56%;
+    width: 584px;
+    height: 46px;
+}
+input {
+    width: 527px;
+    height: 34px;
+    display: flex;
+    flex: auto;
 }
 .container {
     display: flex;
